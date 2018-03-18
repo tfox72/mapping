@@ -1,13 +1,40 @@
 html,
 body,
-#map-id {
+#mapid {
+  width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-.info.legend {
-  background-color: white;
-  padding: 1em;
-  opacity: 0.6;
+.legend {
+  padding: 10px;
+  line-height: 30px;
+  color: blue;
+  background-color: darkgrey;
+  border-radius: 10px
 }
+
+.legend i {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin-right: 8px;
+  opacity: 0.8;
+
+  
+} 
+
+.leaflet-bottom.leaflet-left {
+  width: 90%;
+}
+
+.leaflet-control-container .leaflet-timeline-controls {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 15px;
+} 
+
+  
